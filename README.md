@@ -6,12 +6,12 @@ This program is a Python application that helps you extract unique Instagram and
 
 1. Make sure you have Python installed on your system.
 
-2. Download the `main.py` file and save it to your preferred location.
+2. Download the `scraper.py` file and save it to your preferred location.
 
 3. Install the required dependencies by running the following command in your terminal or command prompt:
 
    ```
-   pip install requests
+   pip install requests,tkinter
    ```
 
 4. Run the program by executing the `main.py` file.
