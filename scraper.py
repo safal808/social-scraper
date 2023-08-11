@@ -114,5 +114,5 @@ window.geometry("300x300")
 process_button = tk.Button(window, text="Process URLs", command=process_urls)
 process_button.pack(pady=120)
 
-window.mainloop()
+window.ainloop()
 
