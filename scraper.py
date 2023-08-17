@@ -10,7 +10,6 @@ def process_urls():
     filename = filedialog.askopenfilename(title="Select File", filetypes=(("CSV files", "*.csv"), ("Text files", "*.txt"), ("All files", "*.*")))
     if not filename:
         return
-
     urls = []
     if filename.endswith(".txt"):
         with open(filename, "r") as file:
